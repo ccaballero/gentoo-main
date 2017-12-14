@@ -1,0 +1,241 @@
+app-admin/conky -hddtemp iconv imlib iostats lua lua-cairo lua-imlib math mpd -ncurses -portmon -rss truetype vim-syntax wifi X
+app-arch/bzip2 abi_x86_32
+app-crypt/pinentry gnome-keyring
+app-eselect/eselect-php fpm -apache
+app-admin/sudo -ldap -sendmail
+app-admin/syslog-ng ssl tcpd json redis
+app-editors/gobby gnome
+app-editors/gvim netbeans
+app-editors/vim X python
+app-emulation/docker btrfs overlay
+app-emulation/qemu -bluetooth spice usbredir
+app-emulation/libvirt -policykit virt-network
+app-emulation/libvirt-glib python
+app-emulation/virtualbox additions alsa extensions opengl qt4
+app-emulation/virtualbox-guest-additions X
+app-laptop/laptop-mode-tools acpi bluetooth scsi
+app-office/libreoffice pdfimport -opengl -vba -webdav
+app-text/acroread -ldap
+app-text/evince -dbus -introspection -postscript -tiff
+app-text/ghostscript cups
+app-text/ghostscript-gpl cups
+app-text/mupdf opengl -static-libs abi_x86_32
+app-text/poppler qt5
+dev-cpp/glog gflags
+dev-db/mariadb -berkdb -pam -perl static-libs -xml
+dev-db/mysql -berkdb -perl
+dev-db/sqlite abi_x86_32
+dev-java/icedtea webstart nsplugin
+dev-java/icedtea-bin webstart nsplugin
+dev-java/icedtea-web nsplugin
+dev-lang/ghc binary
+dev-lang/perl berkdb gdbm ithreads
+dev-lang/php -apache2 -berkdb curl fpm -ftp gd intl json mysql mysqli nls pdo -postgres sockets threads truetype -xmlreader -xmlwriter -xslt zip
+dev-lang/python sqlite
+dev-libs/apr-util -berkdb -ldap
+dev-libs/boehm-gc threads
+dev-libs/boost python
+dev-libs/efl sound
+dev-libs/expat abi_x86_32
+dev-libs/glib abi_x86_32
+dev-libs/gmp abi_x86_32
+dev-libs/icu abi_x86_32
+dev-libs/json-c abi_x86_32
+dev-libs/libffi abi_x86_32
+dev-libs/libgit2 threads ssh
+dev-libs/libgit2-glib ssh
+dev-libs/libnl utils
+dev-libs/libpcre pcre16 abi_x86_32
+dev-libs/libpcre2 pcre16
+dev-libs/libpthread-stubs abi_x86_32
+dev-libs/libxml2 icu abi_x86_32
+dev-libs/nettle abi_x86_32
+dev-libs/nspr abi_x86_32
+dev-libs/nss abi_x86_32
+dev-libs/openssl abi_x86_32
+dev-libs/volume_key python_single_target_python3_5
+dev-python/django mysql vhosts
+dev-python/PyQt4 webkit
+dev-python/PyQt5 webkit
+dev-qt/qt3support abi_x86_32
+dev-qt/qtcore abi_x86_32 icu
+=dev-qt/qtcore-4.8.7-r3 -icu
+dev-qt/qtdbus abi_x86_32
+dev-qt/qtgui abi_x86_32
+dev-qt/qtscript abi_x86_32
+dev-qt/qtsql abi_x86_32
+dev-qt/qtwebkit -gstreamer -jit abi_x86_32 -exceptions printsupport
+dev-qt/qtxmlpatterns abi_x86_32
+dev-ruby/activerecord postgres
+dev-ruby/did_you_mean ruby_targets_ruby24
+dev-ruby/json ruby_targets_ruby24
+dev-ruby/kpeg ruby_targets_ruby24
+dev-ruby/minitest ruby_targets_ruby24
+dev-ruby/net-telnet ruby_targets_ruby24
+dev-ruby/power_assert ruby_targets_ruby24
+dev-ruby/racc ruby_targets_ruby24
+dev-ruby/rake ruby_targets_ruby24
+dev-ruby/rdoc ruby_targets_ruby24
+dev-ruby/rubygems ruby_targets_ruby24
+dev-ruby/test-unit ruby_targets_ruby24
+dev-ruby/xmlrpc ruby_targets_ruby24
+dev-util/meld python_single_target_python3_5
+dev-util/pkgconfig abi_x86_32
+dev-vcs/git pcre -perl -gtk -python
+gnome-base/gnome-menus python
+gnome-base/gvfs archive -cdda fuse mtp
+media-fonts/hunkyfonts X
+media-fonts/kochi-substitute X
+media-fonts/ttf-bitstreamvera X
+media-gfx/blender python_single_target_python3_5
+media-gfx/comix rar
+media-gfx/graphicsmagick imagemagick
+media-gfx/imagemagick -openmp
+media-libs/alsa-lib abi_x86_32
+media-libs/flac abi_x86_32
+media-libs/fontconfig abi_x86_32
+media-libs/freeglut abi_x86_32
+media-libs/freetype abi_x86_32 bindist
+media-libs/gd fontconfig
+media-libs/glu abi_x86_32
+media-libs/harfbuzz icu
+media-libs/lcms abi_x86_32 python
+media-libs/libextractor archive bzip2 ffmpeg flac gif gsf gtk jpeg magic midi mp4 mpeg -tidy tiff vorbis zlib
+media-libs/libjpeg abi_x86_32
+media-libs/libjpeg-turbo abi_x86_32
+media-libs/libmng abi_x86_32
+media-libs/libmypaint gegl
+media-libs/libogg abi_x86_32
+media-libs/libpng abi_x86_32
+media-libs/libsndfile abi_x86_32
+media-libs/libvorbis abi_x86_32
+media-libs/libvpx postproc svc
+media-libs/libwebp abi_x86_32
+media-libs/mesa abi_x86_32 gles2 bindist -llvm -gallium
+media-libs/openjpeg -static-libs
+media-libs/tiff abi_x86_32
+media-plugins/alsa-plugins abi_x86_32 pulseaudio
+media-plugins/gst-plugins-meta ffmpeg -cdda
+media-sound/mpc iconv
+media-sound/mpd -ffmpeg
+media-sound/ncmpc -help-screen colors mouse
+media-sound/pulseaudio abi_x86_32 X alsa alsa-plugin bluetooth caps dbus glib gnome gtk udev
+media-video/ffmpeg libass openssl opus rtmp threads v4l vaapi vdpau vpx -X x264 x265
+media-video/gnome-mplayer -libnotify
+media-video/mjpegtools v4l
+media-video/mplayer win32codecs mmxext bindist
+media-video/vlc bluray -cdda dvbpsi fontconfig -gcrypt httpd libass lua matroska mpeg -ncurses -opengl postproc qt4 svga truetype vorbis win32codecs vdpau wma-fixed x264 rtsp
+net-analyzer/netcat6 -bluetooth
+net-analyzer/nmap -gtk -lua
+net-analyzer/rrdtool graph
+net-analyzer/wireshark androiddump
+net-dns/avahi autoipd
+net-dns/dnsmasq dbus dhcp script
+net-firewall/iptables ipv6
+net-im/pidgin -spell -xscreensaver
+net-im/skype pulseaudio
+net-misc/curl -ldap
+net-misc/dhcp -ldap -server ssl vim-syntax
+net-misc/spice-gtk python gtk3 usbredir
+net-misc/tightvnc server
+net-libs/gtk-vnc python
+net-libs/libasyncns abi_x86_32
+net-libs/libmicrohttpd messages
+net-libs/libpcap -bluetooth
+net-libs/nodejs npm
+net-print/cups-filters -dbus -foomatic
+net-wireless/blueman -policykit network -sendto python_single_target_python3_5
+net-wireless/bluez alsa readline usb hid2hci
+net-wireless/lorcon python
+sci-geosciences/googleearth -bundled-libs
+sci-geosciences/mapnik python gdal geos
+sys-apps/attr abi_x86_32
+sys-apps/dbus abi_x86_32
+sys-apps/tcp-wrappers abi_x86_32
+sys-apps/util-linux abi_x86_32
+sys-boot/grub -multislot fonts themes truetype device-mapper
+sys-devel/clang abi_x86_32
+sys-devel/distcc gtk
+sys-devel/llvm abi_x86_32 clang
+sys-fs/eudev abi_x86_32
+sys-fs/lvm2 -udev thin
+sys-fs/udev -introspection -gudev
+sys-fs/udisks -gptfdisk
+sys-libs/gpm abi_x86_32
+sys-libs/libblockdev python_single_target_python3_5
+sys-libs/libcap abi_x86_32
+sys-libs/ncurses abi_x86_32 -gpm
+sys-libs/readline abi_x86_32
+sys-libs/zlib abi_x86_32 minizip
+sys-power/cpufreqd acpi lm_sensors
+sys-power/hibernate-script vim-syntax
+sys-process/tini static
+xfce-base/libxfce4ui -startup-notification
+xfce-base/thunar -pcre -startup-notification -libnotify
+xfce-base/xfdesktop -libnotify
+xfce-base/xfce4-session -xscreensaver
+xfce-base/xfce4-settings -xklavier -libnotify
+xfce-base/xfwm4 -startup-notification
+xfce-extra/tumbler -pdf
+xfce-extra/thunar-volman
+x11-base/xorg-server udev kdrive
+x11-drivers/nvidia-drivers X acpi compat drive kms tools -gtk3 uvm
+x11-libs/libdrm abi_x86_32
+x11-libs/libICE abi_x86_32
+x11-libs/libpciaccess abi_x86_32
+x11-libs/libSM abi_x86_32
+x11-libs/libX11 abi_x86_32
+x11-libs/libXau abi_x86_32
+x11-libs/libxcb abi_x86_32
+x11-libs/libXcursor abi_x86_32
+x11-libs/libXdamage abi_x86_32
+x11-libs/libXdmcp abi_x86_32
+x11-libs/libXext abi_x86_32
+x11-libs/libXfixes abi_x86_32
+x11-libs/libXi abi_x86_32
+x11-libs/libXinerama abi_x86_32
+x11-libs/libXrandr abi_x86_32
+x11-libs/libXrender abi_x86_32
+x11-libs/libXScrnSaver abi_x86_32
+x11-libs/libxshmfence abi_x86_32
+x11-libs/libXtst abi_x86_32
+x11-libs/libXv abi_x86_32
+x11-libs/libXxf86vm abi_x86_32
+x11-libs/libwnck -startup-notification
+x11-misc/xdg-utils -perl
+x11-proto/damageproto abi_x86_32
+x11-proto/dri2proto abi_x86_32
+x11-proto/dri3proto abi_x86_32
+x11-proto/fixesproto abi_x86_32
+x11-proto/glproto abi_x86_32
+x11-proto/kbproto abi_x86_32
+x11-proto/inputproto abi_x86_32
+x11-proto/presentproto abi_x86_32
+x11-proto/randrproto abi_x86_32
+x11-proto/recordproto abi_x86_32
+x11-proto/renderproto abi_x86_32
+x11-proto/scrnsaverproto abi_x86_32
+x11-proto/videoproto abi_x86_32
+x11-proto/xcb-proto abi_x86_32
+x11-proto/xextproto abi_x86_32
+x11-proto/xf86bigfontproto abi_x86_32
+x11-proto/xf86driproto abi_x86_32
+x11-proto/xf86vidmodeproto abi_x86_32
+x11-proto/xineramaproto abi_x86_32
+x11-proto/xproto abi_x86_32
+virtual/ffmpeg -X 
+virtual/glu abi_x86_32
+virtual/jpeg abi_x86_32
+virtual/libffi abi_x86_32
+virtual/libiconv abi_x86_32
+virtual/libintl abi_x86_32
+virtual/libudev abi_x86_32
+virtual/opengl abi_x86_32
+virtual/pkgconfig abi_x86_32
+virtual/rubygems ruby_targets_ruby24
+www-client/chromium hangouts
+www-client/firefox bindist gstreamer
+www-client/links -X -tiff -jpeg -deprecated
+www-client/midori -libnotify
+www-servers/apache -ldap
+www-servers/nginx http -pcre ssl vim-syntax -rtmp syslog
