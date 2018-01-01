@@ -1,5 +1,6 @@
 app-admin/conky -hddtemp iconv imlib iostats lua lua-cairo lua-imlib math mpd -ncurses -portmon -rss truetype vim-syntax wifi X
 app-arch/bzip2 abi_x86_32
+app-arch/snappy static-libs
 app-crypt/pinentry gnome-keyring
 app-eselect/eselect-php fpm -apache
 app-admin/sudo -ldap -sendmail
@@ -153,7 +154,7 @@ sys-apps/attr abi_x86_32
 sys-apps/dbus abi_x86_32
 sys-apps/tcp-wrappers abi_x86_32
 sys-apps/util-linux abi_x86_32
-sys-boot/grub -multislot fonts themes truetype device-mapper
+sys-boot/grub -multislot fonts mount themes truetype device-mapper
 sys-devel/clang abi_x86_32
 sys-devel/distcc gtk
 sys-devel/llvm abi_x86_32 clang

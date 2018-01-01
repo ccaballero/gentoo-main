@@ -4,6 +4,7 @@ app-admin/authbind
 app-admin/conky
 app-admin/eselect
 app-admin/logrotate
+app-admin/mongo-tools
 app-admin/perl-cleaner
 app-admin/sudo
 app-admin/syslog-ng
@@ -130,7 +131,6 @@ dev-java/ant-core
 dev-java/java-config
 dev-java/javatoolkit
 dev-java/oracle-jdk-bin
-dev-lang/erlang
 dev-lang/go
 dev-lang/go-bootstrap
 dev-lang/lua
@@ -215,6 +215,7 @@ dev-libs/openssl
 dev-libs/protobuf
 dev-libs/pugixml
 dev-libs/vala-common
+dev-libs/volume_key
 dev-libs/zziplib
 dev-lua/lgi
 dev-perl/Crypt-OpenSSL-DSA
@@ -242,6 +243,7 @@ dev-python/PySocks
 dev-python/alabaster
 dev-python/backports
 dev-python/backports-ssl-match-hostname
+dev-python/bcrypt
 dev-python/beautifulsoup
 dev-python/certifi
 dev-python/cffi
@@ -360,6 +362,7 @@ dev-util/scons
 dev-util/xfce4-dev-tools
 dev-vcs/git
 dev-vcs/qgit
+dev-vcs/subversion
 gnome-base/dconf
 gnome-base/gconf
 gnome-base/gnome-common
@@ -564,7 +567,6 @@ net-misc/dhcpcd
 net-misc/netifrc
 net-misc/ntpclient
 net-misc/openssh
-net-misc/rabbitmq-server
 net-misc/radvd
 net-misc/spice-gtk
 net-misc/tigervnc
