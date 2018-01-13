@@ -17,6 +17,7 @@ app-emulation/virtualbox-guest-additions X
 app-laptop/laptop-mode-tools acpi bluetooth scsi
 app-office/libreoffice pdfimport -opengl -vba -webdav
 app-text/acroread -ldap
+app-text/calibre -ios udisks python_targets_python2_7
 app-text/evince -dbus -introspection -postscript -tiff
 app-text/ghostscript cups
 app-text/ghostscript-gpl cups
@@ -68,18 +69,18 @@ dev-qt/qtsql abi_x86_32
 dev-qt/qtwebkit -gstreamer -jit abi_x86_32 -exceptions printsupport
 dev-qt/qtxmlpatterns abi_x86_32
 dev-ruby/activerecord postgres
-dev-ruby/did_you_mean ruby_targets_ruby24
-dev-ruby/json ruby_targets_ruby24
-dev-ruby/kpeg ruby_targets_ruby24
-dev-ruby/minitest ruby_targets_ruby24
-dev-ruby/net-telnet ruby_targets_ruby24
-dev-ruby/power_assert ruby_targets_ruby24
-dev-ruby/racc ruby_targets_ruby24
-dev-ruby/rake ruby_targets_ruby24
-dev-ruby/rdoc ruby_targets_ruby24
-dev-ruby/rubygems ruby_targets_ruby24
-dev-ruby/test-unit ruby_targets_ruby24
-dev-ruby/xmlrpc ruby_targets_ruby24
+dev-ruby/did_you_mean ruby_targets_ruby25
+dev-ruby/json ruby_targets_ruby25
+dev-ruby/kpeg ruby_targets_ruby25
+dev-ruby/minitest ruby_targets_ruby25
+dev-ruby/net-telnet ruby_targets_ruby25
+dev-ruby/power_assert ruby_targets_ruby25
+dev-ruby/racc ruby_targets_ruby25
+dev-ruby/rake ruby_targets_ruby25
+dev-ruby/rdoc ruby_targets_ruby25
+dev-ruby/rubygems ruby_targets_ruby25
+dev-ruby/test-unit ruby_targets_ruby25
+dev-ruby/xmlrpc ruby_targets_ruby25
 dev-util/meld python_single_target_python3_5
 dev-util/pkgconfig abi_x86_32
 dev-vcs/git pcre -perl -gtk -python
@@ -125,7 +126,7 @@ media-video/ffmpeg libass openssl opus rtmp threads v4l vaapi vdpau vpx -X x264 
 media-video/gnome-mplayer -libnotify
 media-video/mjpegtools v4l
 media-video/mplayer win32codecs mmxext bindist
-media-video/vlc bluray -cdda dvbpsi fontconfig -gcrypt httpd libass lua matroska mpeg -ncurses -opengl postproc qt4 svga truetype vorbis win32codecs vdpau wma-fixed x264 rtsp
+media-video/vlc bluray -cdda dvbpsi fontconfig -gcrypt httpd libass lua matroska mpeg -ncurses -opengl opus postproc qt4 svga truetype vorbis win32codecs vdpau wma-fixed x264 rtsp
 net-analyzer/netcat6 -bluetooth
 net-analyzer/nmap -gtk -lua
 net-analyzer/rrdtool graph
@@ -233,7 +234,7 @@ virtual/libintl abi_x86_32
 virtual/libudev abi_x86_32
 virtual/opengl abi_x86_32
 virtual/pkgconfig abi_x86_32
-virtual/rubygems ruby_targets_ruby24
+virtual/rubygems ruby_targets_ruby25
 www-client/chromium hangouts
 www-client/firefox bindist gstreamer
 www-client/links -X -tiff -jpeg -deprecated

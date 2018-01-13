@@ -14,7 +14,6 @@ app-arch/libarchive
 app-arch/lzip
 app-arch/p7zip
 app-arch/rar
-app-arch/snappy
 app-arch/unzip
 app-arch/xarchiver
 app-arch/zip
@@ -61,6 +60,7 @@ app-shells/bash
 app-text/asciidoc
 app-text/aspell
 app-text/build-docbook-catalog
+app-text/calibre
 app-text/docbook-xsl-stylesheets
 app-text/evince
 app-text/ghostscript-gpl
@@ -86,7 +86,6 @@ app-text/poppler
 app-text/qpdf
 app-text/rman
 app-text/texlive
-app-text/texlive-core
 app-text/xhtml1
 app-text/xmlto
 app-text/yelp-tools
@@ -131,6 +130,7 @@ dev-java/ant-core
 dev-java/java-config
 dev-java/javatoolkit
 dev-java/oracle-jdk-bin
+dev-java/oracle-jdk-bin:1.8
 dev-lang/go
 dev-lang/go-bootstrap
 dev-lang/lua
@@ -172,7 +172,6 @@ dev-libs/libbsd
 dev-libs/libbson
 dev-libs/libburn
 dev-libs/libcdio
-dev-libs/libcdio-paranoia
 dev-libs/libcroco
 dev-libs/libebml
 dev-libs/libedit
@@ -302,7 +301,6 @@ dev-python/setuptools
 dev-python/setuptools_scm
 dev-python/simplejson
 dev-python/six
-dev-python/snappy
 dev-python/sphinx
 dev-python/sphinx_rtd_theme
 dev-python/ssl-fetch
@@ -417,7 +415,6 @@ media-gfx/ristretto
 media-libs/a52dec
 media-libs/alsa-lib
 media-libs/audiofile
-media-libs/avidemux-core
 media-libs/babl
 media-libs/exiftool
 media-libs/faac
@@ -504,12 +501,10 @@ media-sound/pulseaudio
 media-sound/ripperx
 media-sound/sox
 media-tv/v4l-utils
-media-video/avidemux
 media-video/ffmpeg
 media-video/gnome-mplayer
 media-video/gtk-recordmydesktop
 media-video/mjpegtools
-media-video/mplayer
 media-video/recordmydesktop
 media-video/rtmpdump
 media-video/vlc
@@ -576,7 +571,6 @@ net-nds/openldap
 net-nds/rpcbind
 net-p2p/transmission
 net-print/cups
-net-print/cups-filters
 net-wireless/blueman
 net-wireless/bluez
 net-wireless/crda
@@ -586,7 +580,6 @@ net-wireless/lorcon
 net-wireless/wireless-regdb
 net-wireless/wpa_supplicant
 sci-astronomy/stellarium
-sci-libs/gdal
 sci-libs/gsl
 sci-libs/libgeotiff
 sci-libs/proj
