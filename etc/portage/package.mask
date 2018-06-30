@@ -1,6 +1,4 @@
 >=x11-drivers/nvidia-drivers-341.0.0
 >=media-video/nvidia-settings-341.0.0
-
-=dev-lang/python-3.6.3
 =media-sound/audacity-2.2.0
 
