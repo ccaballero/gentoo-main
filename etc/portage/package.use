@@ -7,7 +7,7 @@ app-admin/sudo -ldap -sendmail
 app-admin/syslog-ng ssl tcpd json redis
 app-editors/gobby gnome
 app-editors/gvim netbeans
-app-editors/vim X python
+app-editors/vim X python python_single_target_python3_5
 app-emulation/docker btrfs overlay
 app-emulation/qemu -bluetooth spice usbredir
 app-emulation/libvirt -policykit virt-network
@@ -24,6 +24,7 @@ app-text/ghostscript cups
 app-text/ghostscript-gpl cups
 app-text/mupdf opengl -static-libs abi_x86_32
 app-text/poppler qt5
+app-vim/vim-latex python_single_target_python3_5
 dev-cpp/glog gflags
 dev-db/mariadb -berkdb -pam -perl static-libs -xml
 dev-db/mysql -berkdb -perl
@@ -42,8 +43,10 @@ dev-libs/efl sound
 dev-libs/expat abi_x86_32
 dev-libs/glib abi_x86_32
 dev-libs/gmp abi_x86_32
+dev-libs/gobject-introspection python_single_target_python3_5
 dev-libs/icu abi_x86_32
 dev-libs/json-c abi_x86_32
+dev-libs/leveldb -static-libs
 dev-libs/libffi abi_x86_32
 dev-libs/libgit2 threads ssh
 dev-libs/libgit2-glib ssh
@@ -62,7 +65,6 @@ dev-python/PyQt4 webkit
 dev-python/PyQt5 webkit
 dev-qt/qt3support abi_x86_32
 dev-qt/qtcore abi_x86_32 icu
-=dev-qt/qtcore-4.8.7-r3 -icu
 dev-qt/qtdbus abi_x86_32
 dev-qt/qtgui abi_x86_32
 dev-qt/qtscript abi_x86_32
@@ -92,6 +94,7 @@ media-fonts/kochi-substitute X
 media-fonts/ttf-bitstreamvera X
 media-gfx/blender python_single_target_python3_5
 media-gfx/comix rar
+media-gfx/fontforge python_single_target_python3_5
 media-gfx/graphicsmagick imagemagick
 media-gfx/imagemagick -openmp
 media-libs/alsa-lib abi_x86_32
@@ -127,7 +130,7 @@ media-video/ffmpeg libass openssl opus rtmp threads v4l vaapi vdpau vpx -X x264 
 media-video/gnome-mplayer -libnotify
 media-video/mjpegtools v4l
 media-video/mplayer win32codecs mmxext bindist
-media-video/vlc bluray -cdda dvbpsi fontconfig -gcrypt httpd libass lua matroska mpeg -ncurses -opengl opus postproc qt4 svga truetype vorbis win32codecs vdpau wma-fixed x264 rtsp
+media-video/vlc bluray -cdda dvbpsi fontconfig -gcrypt httpd libass lua matroska mpeg -ncurses -opengl opus postproc qt4 -ssl svga truetype vorbis win32codecs vdpau wma-fixed x264 rtsp
 net-analyzer/netcat6 -bluetooth
 net-analyzer/nmap -gtk -lua
 net-analyzer/rrdtool graph
@@ -182,6 +185,7 @@ xfce-base/xfwm4 -startup-notification
 xfce-extra/tumbler -pdf
 xfce-extra/thunar-volman
 x11-base/xorg-server udev kdrive
+x11-base/xcb-proto abi_x86_32 python_targets_python_3_6
 x11-drivers/nvidia-drivers X acpi compat drive kms tools -gtk3 uvm
 x11-libs/libdrm abi_x86_32
 x11-libs/libICE abi_x86_32
@@ -219,7 +223,6 @@ x11-proto/recordproto abi_x86_32
 x11-proto/renderproto abi_x86_32
 x11-proto/scrnsaverproto abi_x86_32
 x11-proto/videoproto abi_x86_32
-x11-base/xcb-proto abi_x86_32
 x11-proto/xextproto abi_x86_32
 x11-proto/xf86bigfontproto abi_x86_32
 x11-proto/xf86driproto abi_x86_32
